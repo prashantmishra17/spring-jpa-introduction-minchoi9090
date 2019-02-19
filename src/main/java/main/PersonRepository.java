@@ -3,8 +3,8 @@ package main;
 import org.springframework.data.repository.CrudRepository;
 
 
-public interface ManagerRepository extends CrudRepository<ManagerEntity, Integer> {
+public interface PersonRepository extends CrudRepository<Person, Integer> {
 
-    ManagerEntity findByLastName (String lastName);
+    Person findFirstByName(String name);
 
 }

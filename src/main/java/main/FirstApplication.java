@@ -10,22 +10,19 @@ public class FirstApplication implements CommandLineRunner {
 
 
     @Autowired
-    ManagerRepository managerRepository;
+    PersonRepository personRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(FirstApplication.class, args);
+        SpringApplication.run(FirstApplication.class,args);
     }
 
     @Override
     public void run(String... args) throws Exception {
-        ManagerEntity manager = new ManagerEntity();
-        manager.setId(0);
-        manager.setFirstName("Tyler");
-        manager.setLastName("Niswonger");
-        manager.setDepartment("Technology");
-        managerRepository.save(manager);
+        Person person = new Person();
+        person.setName("John");
+        personRepository.save(person);
 
-        ManagerEntity managerFromDb = managerRepository.findByLastName("Niswonger");
-        System.out.println(managerFromDb.toString());
+        Person personFromDb = personRepository.findFirstByName("John");
+        System.out.println(personFromDb);
     }
 }

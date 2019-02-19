@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40801aaa-392f-4848-9fa0-eeda797f8c44" name="Default Changelist" comment="Complete Part 1">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydb.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,16 +72,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="290">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -122,12 +157,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20180918123599_create_dog.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2_create_manager_table.sql" />
         <option value="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/mydb.trace.db" />
         <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Person.java" />
-        <option value="$PROJECT_DIR$/mydb.trace.db" />
+        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
       </list>
     </option>
   </component>
@@ -418,15 +453,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonRepository.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -681,7 +707,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26779000" />
+    <option name="totallyTimeSpent" value="27214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -888,36 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mydb.trace.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -934,13 +930,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="290">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
