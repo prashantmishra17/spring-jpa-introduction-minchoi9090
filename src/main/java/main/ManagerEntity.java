@@ -65,8 +65,7 @@ public class ManagerEntity {
     @Override
     public String toString() { return "Manager: " + firstName + " " + lastName; }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, firstName, lastName, department);
-    }
+
+
+
 }

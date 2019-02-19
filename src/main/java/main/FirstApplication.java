@@ -21,7 +21,7 @@ public class FirstApplication implements CommandLineRunner {
         ManagerEntity manager = new ManagerEntity();
         manager.setId(0);
         manager.setFirstName("Tyler");
-        manager.setLastName("Niswonger");
+
         manager.setDepartment("Technology");
         managerRepository.save(manager);
 

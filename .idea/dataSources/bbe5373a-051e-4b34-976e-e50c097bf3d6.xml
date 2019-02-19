@@ -38,7 +38,7 @@
     <key id="12" parent="5" name="CONSTRAINT_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
-      <Primary>1</Primary>
+
     </key>
     <column id="13" parent="6" name="ID">
       <Position>1</Position>
