@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40801aaa-392f-4848-9fa0-eeda797f8c44" name="Default Changelist" comment="Complete Part 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mydb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydb.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,11 +65,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mydb.trace.db">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="1311" column="44" selection-start-line="1311" selection-start-column="44" selection-end-line="1311" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,10 +122,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20180918123599_create_dog.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2_create_manager_table.sql" />
         <option value="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
         <option value="$PROJECT_DIR$/mydb.trace.db" />
       </list>
     </option>
@@ -379,6 +392,41 @@
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
               <item name="dataSources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonRepository.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -633,7 +681,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25492000" />
+    <option name="totallyTimeSpent" value="26779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -819,43 +867,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="942" column="18" lean-forward="true" selection-start-line="942" selection-start-column="18" selection-end-line="942" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="200" column="54" selection-start-line="200" selection-start-column="54" selection-end-line="200" selection-end-column="54" />
           <folding>
-            <element signature="e#8513#8517#0" expanded="true" />
-            <element signature="e#8523#8527#0" expanded="true" />
-            <element signature="e#8606#8610#0" expanded="true" />
-            <element signature="e#8616#8620#0" expanded="true" />
-            <element signature="e#8633#8637#0" expanded="true" />
-            <element signature="e#8713#8717#0" expanded="true" />
-            <element signature="e#8723#8727#0" expanded="true" />
-            <element signature="e#8815#8819#0" expanded="true" />
-            <element signature="e#8825#8829#0" expanded="true" />
-            <element signature="e#8908#8912#0" expanded="true" />
-            <element signature="e#8918#8922#0" expanded="true" />
-            <element signature="e#8998#9002#0" expanded="true" />
-            <element signature="e#9008#9012#0" expanded="true" />
-            <element signature="e#9023#9027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#12462#12466#0" expanded="true" />
+            <element signature="e#12472#12476#0" expanded="true" />
+            <element signature="e#12555#12559#0" expanded="true" />
+            <element signature="e#12565#12569#0" expanded="true" />
+            <element signature="e#12582#12586#0" expanded="true" />
+            <element signature="e#12662#12666#0" expanded="true" />
+            <element signature="e#12672#12676#0" expanded="true" />
+            <element signature="e#12764#12768#0" expanded="true" />
+            <element signature="e#12774#12778#0" expanded="true" />
+            <element signature="e#12857#12861#0" expanded="true" />
+            <element signature="e#12867#12871#0" expanded="true" />
+            <element signature="e#12947#12951#0" expanded="true" />
+            <element signature="e#12957#12961#0" expanded="true" />
+            <element signature="e#12972#12976#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1596#1597#0" expanded="true" />
@@ -866,11 +902,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="188">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
             <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
@@ -885,8 +920,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mydb.trace.db">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="1311" column="44" selection-start-line="1311" selection-start-column="44" selection-end-line="1311" selection-end-column="44" />
+        <state relative-caret-position="289">
+          <caret line="750" column="4" selection-start-line="750" selection-start-column="4" selection-end-line="750" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
