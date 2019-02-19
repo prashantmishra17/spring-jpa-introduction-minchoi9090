@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40801aaa-392f-4848-9fa0-eeda797f8c44" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20180918123599__create_dog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__create_manager_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6730a0d-742e-4a92-82b4-97c4297a8af0/storage_v2/_src_/database/jpa-intro.-oXbNA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6730a0d-742e-4a92-82b4-97c4297a8af0/storage_v2/_src_/database/jpa-intro.-oXbNA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b457d2ff-47b4-443d-a808-b11409aaef03/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b457d2ff-47b4-443d-a808-b11409aaef03/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydb.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydb.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,36 +53,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="870" column="16" selection-start-line="870" selection-start-column="16" selection-end-line="870" selection-end-column="16" />
-              <folding>
-                <element signature="e#8604#8608#0" expanded="true" />
-                <element signature="e#8614#8618#0" expanded="true" />
-                <element signature="e#8697#8701#0" expanded="true" />
-                <element signature="e#8707#8711#0" expanded="true" />
-                <element signature="e#8724#8728#0" expanded="true" />
-                <element signature="e#8804#8808#0" expanded="true" />
-                <element signature="e#8814#8818#0" expanded="true" />
-                <element signature="e#8906#8910#0" expanded="true" />
-                <element signature="e#8916#8920#0" expanded="true" />
-                <element signature="e#8999#9003#0" expanded="true" />
-                <element signature="e#9009#9013#0" expanded="true" />
-                <element signature="e#9089#9093#0" expanded="true" />
-                <element signature="e#9099#9103#0" expanded="true" />
-                <element signature="e#9114#9118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="317">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+              <caret line="97" column="78" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
+              <caret line="878" column="79" selection-start-line="878" selection-start-column="79" selection-end-line="878" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -114,7 +76,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>minchoi9090</find>
-      <find>tdniswon</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -145,7 +106,7 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/mydb.trace.db" />
-        <option value="$PROJECT_DIR$/.idea/spring-jpa-introduction-tdniswon.iml" />
+        <option value="$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml" />
         <option value="$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml" />
       </list>
     </option>
@@ -400,12 +361,6 @@
               <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dataSources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -423,7 +378,7 @@
     <property name="SearchEverywhereHistoryKey" value="persis&#9;ACTION&#9;ActivatePersistenceToolWindow&#10;persista&#9;PSI&#9;JAVA://org.springframework.data.domain.Persistable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550571830452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550572153002" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -613,7 +568,7 @@
       <workItem from="1549983457925" duration="1285000" />
       <workItem from="1550006023139" duration="2095000" />
       <workItem from="1550546971640" duration="7027000" />
-      <workItem from="1550569586394" duration="2195000" />
+      <workItem from="1550569586394" duration="2668000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1550008563019</created>
@@ -640,7 +595,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18803000" />
+    <option name="totallyTimeSpent" value="19276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -781,18 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -853,13 +796,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -967,33 +903,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/spring-jpa-introduction-tdniswon.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="870" column="16" selection-start-line="870" selection-start-column="16" selection-end-line="870" selection-end-column="16" />
-          <folding>
-            <element signature="e#8604#8608#0" expanded="true" />
-            <element signature="e#8614#8618#0" expanded="true" />
-            <element signature="e#8697#8701#0" expanded="true" />
-            <element signature="e#8707#8711#0" expanded="true" />
-            <element signature="e#8724#8728#0" expanded="true" />
-            <element signature="e#8804#8808#0" expanded="true" />
-            <element signature="e#8814#8818#0" expanded="true" />
-            <element signature="e#8906#8910#0" expanded="true" />
-            <element signature="e#8916#8920#0" expanded="true" />
-            <element signature="e#8999#9003#0" expanded="true" />
-            <element signature="e#9009#9013#0" expanded="true" />
-            <element signature="e#9089#9093#0" expanded="true" />
-            <element signature="e#9099#9103#0" expanded="true" />
-            <element signature="e#9114#9118#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="317">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <caret line="97" column="78" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
+          <caret line="878" column="79" selection-start-line="878" selection-start-column="79" selection-end-line="878" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1001,6 +916,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
