@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40801aaa-392f-4848-9fa0-eeda797f8c44" name="Default Changelist" comment="test">
+    <list default="true" id="40801aaa-392f-4848-9fa0-eeda797f8c44" name="Default Changelist" comment="Complete Part 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydb.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +52,13 @@
         <item name="MYDB: database" type="2aa06773:H2ImplModel$Database" />
         <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb" type="feb32156:DbDataSourceImpl" />
+        <item name="MYDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="MANAGER: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -54,12 +68,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/mydb.trace.db">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-              <caret line="97" column="78" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
-              <caret line="878" column="79" selection-start-line="878" selection-start-column="79" selection-end-line="878" selection-end-column="79" />
+            <state relative-caret-position="340">
+              <caret line="1311" column="44" selection-start-line="1311" selection-start-column="44" selection-end-line="1311" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -74,9 +86,6 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
-    <findStrings>
-      <find>minchoi9090</find>
-    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -95,21 +104,23 @@
         <option value="$PROJECT_DIR$/src/main/java/FirstApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20180918123527__create_user_table.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/main/Person.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V20180918123599_create_dog.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2_create_manager_table.sql" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/FirstApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/ManagerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/PersonRepository.java" />
         <option value="$PROJECT_DIR$/mydb.trace.db" />
-        <option value="$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml" />
-        <option value="$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml" />
       </list>
     </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+    <option name="showModules" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -135,9 +146,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="-24" />
+    <option name="y" value="54" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -361,6 +373,12 @@
               <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jpademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jpa-introduction-minchoi9090" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="dataSources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -378,7 +396,7 @@
     <property name="SearchEverywhereHistoryKey" value="persis&#9;ACTION&#9;ActivatePersistenceToolWindow&#10;persista&#9;PSI&#9;JAVA://org.springframework.data.domain.Persistable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550572153002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550563624688" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -512,7 +530,7 @@
       </method>
     </configuration>
     <configuration name="FirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-jpa-introduction-minchoi9090 " />
+      <module name="spring-jpa-introduction-tdniswon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -567,8 +585,7 @@
       <workItem from="1549982380222" duration="1028000" />
       <workItem from="1549983457925" duration="1285000" />
       <workItem from="1550006023139" duration="2095000" />
-      <workItem from="1550546971640" duration="7027000" />
-      <workItem from="1550569586394" duration="2668000" />
+      <workItem from="1550546971640" duration="15723000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1550008563019</created>
@@ -591,17 +608,38 @@
       <option name="project" value="LOCAL" />
       <updated>1550553772284</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1550554705728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550554705728</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complete Part 1">
+      <created>1550554720789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550554720789</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Complete Part 1">
+      <created>1550554731194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550554731194</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19276000" />
+    <option name="totallyTimeSpent" value="25492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4831261" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52575487" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" sideWeight="0.5168739" side_tool="true" weight="0.2639676" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,7 +647,7 @@
       <window_info id="DB Browser" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.47682118" side_tool="true" weight="0.2639676" />
-      <window_info id="Persistence" order="8" sideWeight="0.5168739" side_tool="true" visible="true" weight="0.2639676" />
+      <window_info id="Persistence" order="8" sideWeight="0.4742451" side_tool="true" weight="0.2639676" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978425" weight="0.3516874" />
@@ -620,21 +658,21 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021575" side_tool="true" weight="0.28872496" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3285968" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34697217" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.348135" />
       <window_info anchor="bottom" id="Reviews" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Floobits" order="16" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32930514" />
-      <window_info anchor="bottom" id="Java Enterprise" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.24333926" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.39253998" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.48237664" weight="0.2322239" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.48237664" visible="true" weight="0.23238866" />
       <window_info anchor="right" id="News Feed" order="5" />
       <window_info anchor="right" id="Data View" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -646,7 +684,7 @@
       <window_info anchor="right" id="Maven" order="13" weight="0.20323886" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4831261" visible="true" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6560284" visible="true" weight="0.2639676" />
       <window_info id="Structure" order="1" sideWeight="0.5168739" side_tool="true" weight="0.2639676" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -654,32 +692,32 @@
       <window_info id="DB Browser" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.47682118" side_tool="true" weight="0.2639676" />
-      <window_info id="Persistence" order="8" sideWeight="0.5168739" side_tool="true" visible="true" weight="0.2639676" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978425" weight="0.3516874" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997986" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021575" side_tool="true" weight="0.28872496" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3285968" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.348135" />
-      <window_info anchor="bottom" id="Reviews" order="12" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.3285968" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Floobits" order="16" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32930514" />
-      <window_info anchor="bottom" id="Java Enterprise" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.24333926" />
+      <window_info id="Persistence" order="8" sideWeight="0.34163702" side_tool="true" visible="true" weight="0.2639676" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.5008881" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4978425" weight="0.3516874" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997986" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021575" side_tool="true" weight="0.28872496" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.348135" />
+      <window_info anchor="bottom" id="Reviews" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="17" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32930514" />
+      <window_info anchor="bottom" id="Java Enterprise" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.48237664" visible="true" weight="0.2322239" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.48237664" visible="true" weight="0.23238866" />
       <window_info anchor="right" id="News Feed" order="5" />
       <window_info anchor="right" id="Data View" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -696,7 +734,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Complete Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Part 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dd040963-da0c-49fc-843f-dda64b927001/console.sql" />
@@ -707,7 +746,34 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b457d2ff-47b4-443d-a808-b11409aaef03/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a6730a0d-742e-4a92-82b4-97c4297a8af0/console.sql" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/domain/Persistable.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20180918123527__create_user_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbe5373a-051e-4b34-976e-e50c097bf3d6/console.sql" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20180918123599__create_dog.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://bbe5373a-051e-4b34-976e-e50c097bf3d6/database/MYDB/schema/PUBLIC/table/flyway_schema_history">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -715,34 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
-          <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
-          <caret line="13" column="100" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
-          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+        <state relative-caret-position="-119">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -753,188 +795,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20180918123527__create_user_table.sql">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="519" selection-start-line="519" selection-end-line="519" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20180918123599__create_dog.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/db/migration/V20180918123527__create_user_table.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydb.trace.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="514" column="72" selection-start-line="514" selection-start-column="72" selection-end-line="514" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-intro.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/actions/csharp/ActionLexerTokenTypes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/actions/java/ActionLexer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/actions/csharp/ActionLexer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/actions/cpp/ActionLexerTokenTypes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/actions/cpp/ActionLexer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/bbe5373a-051e-4b34-976e-e50c097bf3d6.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="true" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" lean-forward="true" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="das://bbe5373a-051e-4b34-976e-e50c097bf3d6/database/MYDB/schema/PUBLIC/table/MANAGER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-end-line="5" selection-end-column="10" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerRepository.java" />
+    <entry file="das://bbe5373a-051e-4b34-976e-e50c097bf3d6/database/MYDB/schema/PUBLIC/table/PERSON">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <caret line="97" column="78" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
-          <caret line="878" column="79" selection-start-line="878" selection-start-column="79" selection-end-line="878" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/spring-jpa-introduction-minchoi9090.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="28">
+          <caret line="942" column="18" lean-forward="true" selection-start-line="942" selection-start-column="18" selection-end-line="942" selection-end-column="18" />
+          <folding>
+            <element signature="e#8513#8517#0" expanded="true" />
+            <element signature="e#8523#8527#0" expanded="true" />
+            <element signature="e#8606#8610#0" expanded="true" />
+            <element signature="e#8616#8620#0" expanded="true" />
+            <element signature="e#8633#8637#0" expanded="true" />
+            <element signature="e#8713#8717#0" expanded="true" />
+            <element signature="e#8723#8727#0" expanded="true" />
+            <element signature="e#8815#8819#0" expanded="true" />
+            <element signature="e#8825#8829#0" expanded="true" />
+            <element signature="e#8908#8912#0" expanded="true" />
+            <element signature="e#8918#8922#0" expanded="true" />
+            <element signature="e#8998#9002#0" expanded="true" />
+            <element signature="e#9008#9012#0" expanded="true" />
+            <element signature="e#9023#9027#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/FirstApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="290">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/ManagerEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="290">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydb.trace.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="1311" column="44" selection-start-line="1311" selection-start-column="44" selection-end-line="1311" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -991,7 +943,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-jpa-introduction-minchoi9090</last-edited>
+          <last-edited>spring-jpa-introduction-tdniswon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
